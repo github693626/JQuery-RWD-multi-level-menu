@@ -4,6 +4,7 @@
         <script src="sidenav.js"></script>
         
 HTML
+
         <a id="openPageslide" href="#pageslide"><span></span></a>
     		<div id="pageslide" class="navBox">
               <ul>
@@ -41,6 +42,7 @@ HTML
         </div>
         
 CSS
+
         body,
         ul{ margin:0; padding:0; }
         
@@ -72,6 +74,7 @@ CSS
         }
 
 JS:
+
          $(function(){
             var responsiveWidth = 990;
             var _widthResize;
